@@ -153,8 +153,8 @@ header {
 }
 
 .logo-icon {
-  width: 30px; height: 30px;
-  background: var(--red); border-radius: 8px;
+  /* width: 30px; height: 30px; */
+  background: var(--red); border-radius: 18px;
   display: flex; align-items: center; justify-content: center;
   overflow: hidden; box-shadow: 0 2px 8px var(--red-glow);
   transition: transform 0.2s ease;
@@ -162,7 +162,7 @@ header {
 }
 
 .logo-icon:hover { transform: rotate(-5deg) scale(1.08); }
-.logo-icon img   { width: 20px; height: 20px; object-fit: contain; }
+.logo-icon img   { width: 35px; height: 35px; object-fit: contain; }
 .logo-name       { font-weight: 700; font-size: 1rem; letter-spacing: -0.02em; }
 .logo-name span  { color: var(--red); }
 
@@ -683,8 +683,8 @@ header {
 
 @media (max-width: 380px) {
   .logo-name { font-size: 0.9rem; }
-  .logo-icon { width: 26px; height: 26px; border-radius: 7px; }
-  .logo-icon img { width: 17px; height: 17px; }
+  .logo-icon {  border-radius: 18px; }
+  .logo-icon img { width: 25px; height: 25px; }
   .vt-btn    { width: 24px; height: 22px; }
   .fmt-btn   { width: 28px; height: 26px; font-size: 0.72rem; }
 }
